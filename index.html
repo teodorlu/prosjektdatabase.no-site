@@ -1,75 +1,157 @@
-<html>
-<head>
-<title>Bruk prosjektdatabase</title>
-<meta name="author" content="Teodor Heggelund" />
-<meta charset="UTF-8" />
-</head>
-<body>
-<div id="content">
-<p>
-Du sitter på markedsledende kompetanse på ingeniørfag. Teamet er solid &#x2013; mange
-års erfaring kombinert med sultne yngre gir rom for faglig kvalitet og effektiv
-gjennomføring. Teamet kommuniserer innad, og leverer gode rapporter til rett
-tid.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Ta kontroll med prosjektdatabasen
+    </title>
+    <meta name="description" content="Build beautiful, responsive, readable interfaces.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 
-<p>
-Teknologisk ligger fornuftige verktøy til grunn. Teamet behersker matematikk,
-mekanikk i bunn, og trekker inn verktøy for numerisk analyse og tallbehandling
-der det er behov.
-</p>
+  </head>
+  <body class="w-100 sans-serif">
+      <main class="w-100 bt b--black-10 bg-white">
+          <section class="bg-black-0125 w-100">
+              <!-- Insert header here -->
 
-<p>
-Men det er noe som skurrer ved bruken av de digitale verktøyene. Muligheten til
-innsyn er ikke lenger den samme. Når argumentet ikke støttes av håndregninger,
-men stadig mer kompliserte beregninger. Mengden data ut av en FEM-analyse er
-enorm. Det er krevende å holde oversikt over alt som er gjort, og det er
-krevende å få innsyn inn i datagrunnlaget.
-</p>
 
-<hr />
+              <article class="bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pv4 pv5-ns" id="getting-started">
+                  <div class="mw9 center">
+                      <h1 class="mt0 f5 f3-ns">Kom i gang med prosjektdatabasen</h1>
+                      <p class="f5 measure lh-copy">
+                          Lett som en plett!
+                      </p>
+                      <h3 class="f5 f3-ns mt4 fw6">Forutsetninger</h3>
+                      <p class="lh-copy measure f5">
+                          This template is always linked to the most up to date version of Tachyons.
+                          Save this file to your computer to start prototyping right away without worrying
+                          about setting up a dev environment. You can open the file in a web browser and view
+                          your changes.
+                      </p>
+                  </div>
+              </article>
+              <div class="tl bt b--black-10 pa3 pa5-ns bg-lightest-blue navy" id="principles">
+                  <div class="mw9 center">
+                      <h1 class="f5 ttu tracked fw6">Principles</h1>
+                      <section class="lh-copy">
+                          <div class="cf">
+                              <article class="fl pv2 w-100 w-third-l pr4-l">
+                                  <h2 class="f5 f4-ns fw6 mb0">Responsive</h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      Everything should be 100% responsive. Your website should work regardless of a user’s
+                                      device or screensize.
+                                  </p>
+                              </article>
+                              <article class="pv2 fl w-100 w-third-l ph3-l">
+                                  <h2 class="f5 f4-ns fw6 mb0">Readable</h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      No matter the lighting, or the device, font-sizes should be
+                                      large enough and contrast should be high enough for your
+                                      users to easily read your content.
+                                  </p>
+                              </article>
+                              <article class="pv2 fl w-100 w-third-l pl4-l">
+                                  <h2 class="f5 f4-ns  fw6 mb0">
+                                      Modular
+                                  </h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      Tachyons isn’t just a monolithic framework. It’s a collection of small modules
+                                      that can be mixed and matched or used independently. Use what you need. Leave the rest.
+                                  </p>
+                              </article>
+                          </div>
+                          <div class="cf w-100">
+                              <article class="pv2 fl w-100 w-third-l pl0 pr4-l">
+                                  <h2 class="f5 f4-ns fw6 mb0">Accessible</h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      Accessibility is important to us. Throughout both the css
+                                      and the documentation we provide numerous tools and methods for making it
+                                      easier to maximize the accessibility of your site.
+                                  </p>
+                              </article>
+                              <article class="pv2 fl w-100 w-third-l ph3-l">
+                                  <h2 class="f5 f4-ns  fw6 mb0">Performant</h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      Code should be optimized for performance.
+                                  </p>
+                              </article>
+                              <article class="pv2 fl w-100 w-third-l pl4-l">
+                                  <h2 class="f5 f4-ns fw6 mb0">
+                                      Reusable
+                                  </h2>
+                                  <p class="f6 f5-ns measure lh-copy mt0">
+                                      Clear documentation helps create a shared understanding of design patterns amongst your team.
+                                      This helps promote reuse and reduces the amount of redundancy in a codebase.
+                                  </p>
+                              </article>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+              <section class="cf ph3 ph5-ns pb5 bg-yellow black-70" id="features">
+                  <div class="mw9 center">
+                      <h1 class="fl w-100 mt5 f5 ttu tracked fw6">Features</h1>
+                      <article class="pv2 fl w-100 ">
+                          <h2 class="f4 f1-ns fw6 mb2">Open source component library</h2>
+                          <p class="f5 f4-ns measure lh-copy mt0">
+                              There is a <a href="/components/" class="black dim"title="Tachyons components">growing library of open source components</a> written in static html that are easy
+                              to use as is, customize with your own theme, or port to a templating language.
+                          </p>
+                      </article>
+                      <div class="cf">
+                          <article class="pv2 fl w-100 w-50-l pr0 pr2-l">
+                              <h2 class="f4 f2-ns fw6 mb2">Lightweight</h2>
+                              <p class="f5 measure lh-copy mt0">
+                                  The entire library is fewer than 14kb when minified and
+                                  gzipped. If you want to get even smaller, it’s easy to strip out what you don’t
+                                  need.
+                              </p>
+                          </article>
+                          <article class="pv2 fl w-100 w-50-l pl0 pl2-l">
+                              <h2 class="f4 f2-ns fw6 mb2">Documentation</h2>
+                              <p class="f5 measure lh-copy mt0">
+                                  Each module is carefully documented. From stats about the size of the module,
+                                  to how each css class will render to the screen.
+                              </p>
+                          </article>
+                      </div>
+                      <div class="cf">
+                          <article class="pv2 fl w-100 w-50-l pr0 pr2-l">
+                              <h2 class="f4 f2-ns fw6 mb2">Functional</h2>
+                              <p class="f5 measure lh-copy mt0">
+                                  It’s easy to build components with Tachyons so
+                                  it works well with Rails, React, Ember, Elm, Angular, Static html,
+                                  and more.
+                              </p>
+                          </article>
+                          <article class="pv2 fl w-100 w-50-l pl0 pl2-l">
+                              <h2 class="f4 f2-ns fw6 mb2">Multiple Flavors</h2>
+                              <p class="f5 measure lh-copy mt0">
+                                  Don’t like the class names? We’ve got <a class="black dim" href="https://github.com/tachyons-css/tachyons-verbose">a more verbose version you might like</a>.
+                                  Want to use Sass instead of Postcss? <a class="black dim" href="http://github.com/tachyons-css/tachyons-sass">We‘ve got a repo for that too :)</a> Tachyons isn’t just a css toolkit. It’s a design system. Utilized here in a <a class="black dim" href="https://github.com/tachyons-css/react-native-style-tachyons">react native boilerplate.</a>
+                              </p>
+                          </article>
+                      </div>
+                  </div>
+              </section>
+          </div>
+          </section>
+      </main>
+      <footer class="bg-white black-70 ph3 ph5-ns pv5 pv6-ns bt b--black-10">
+          <div class="mw9 center">
+              <div class="mb5 lh-copy">
+<a class="black-70 link hover-blue b dib mr3 mb3" href="/" title="Home"> Lorem </a>
+<a class="black-70 link hover-blue b dib mr3 mb3" href="/docs" title="Docs"> Ipsum </a>
+<a class="black-70 link hover-blue b dib mr3 mb3" href="/components/" title="Components"> Damet </a>
+              </div>
 
-<p>
-Digitalisering muliggjøres av automatisering og modellering. Automatisering er
-når datamaskinen tar over en <i>jobb</i> fra mennesket. Modellering er vanskeligere å
-få tak på. Modellering er å trekke ut essensen av informasjon. Modellering er
-representasjon. Når vi modellerer, setter vi sammen dataen vår.
-</p>
+              <p class="f6 measure copy lh-copy">
+                  I might write a footer in here.
+              </p>
+          </div>
+      </footer>
 
-<p>
-Jobb med modellering har innen IT typisk vært sentrert rundt databasen.
-Databasen er der dataen vår ligger trygt. Databasen har følgende ansvarsområder:
-</p>
 
-<ul class="org-ul">
-<li>Sikker lagring av data. Når vi har overført data til databasen, kan vi være
-sikker på at den ligger trygt.</li>
-<li>Lagring av all data samme sted. Med lagring i filer, trenger vi et system for
-organisering av filer <i>i tillegg</i> til filene. Databasen lar oss strukturere
-data vi ville lagret i en fil, i tillegg til å strukturere sammenhengen mellom
-forskjellige datasett.</li>
-<li>Effektiv spørring etter data. Med en database kan vi effektivt spørre etter
-kun den dataen vi trenger, uten å trenge å gå gjennom alt.</li>
-<li>Samtidig arbeid mot data. Flere personer kan være koblet mot samme data. Når
-flere mennesker jobber mot samme fil, risikerer man at filen blir overskrevet
-og at man mister data. Databasen mister ikke data, og man vil heller beholde
-resultatet av begge dataskrivingene.</li>
-<li>Mulighet for automatisering. Med databasen i sentrum, er det lett å
-automatisere omkringliggende arbeidsoppgaver. Et script kan lett hente ut data
-fra databasen og skrive ny data til databasen.</li>
-</ul>
-
-<p>
-Gjennomfør digitalisering på dine egne premisser, og ta kontroll over din egen
-data.
-</p>
-
-<hr />
-
-<p>
-Teodor Heggelund
-Sivilingeniør og programvareutvikler
-</p>
-</div>
 </body>
 </html>
